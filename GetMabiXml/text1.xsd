@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="gb2312"?>
+<xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="AdvertiseItems">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="ItemDesc" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:attribute name="Item_ID" type="xs:string" />
+            <xs:attribute name="Shop_Name" type="xs:string" />
+            <xs:attribute name="Area" type="xs:string" />
+            <xs:attribute name="Comment" type="xs:string" />
+            <xs:attribute name="Start_Time" type="xs:string" />
+            <xs:attribute name="Item_ClassId" type="xs:string" />
+            <xs:attribute name="Char_Name" type="xs:string" />
+            <xs:attribute name="Item_Name" type="xs:string" />
+            <xs:attribute name="Item_Price" type="xs:int" />
+            <xs:attribute name="Item_Color1" type="xs:int" />
+            <xs:attribute name="Item_Color2" type="xs:int" />
+            <xs:attribute name="Item_Color3" type="xs:int" />
+            <xs:attribute name="Count" type="xs:string" />
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="NextPage" type="xs:string" />
+      <xs:attribute name="NowPage" type="xs:string" />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="AdvertiseItems" />
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

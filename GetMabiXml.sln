@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetMabiXml", "GetMabiXml\GetMabiXml.csproj", "{525ACFD5-5FAA-4A40-A646-FB7DC6D299F3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release_trial|Any CPU = Release_trial|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{525ACFD5-5FAA-4A40-A646-FB7DC6D299F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{525ACFD5-5FAA-4A40-A646-FB7DC6D299F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{525ACFD5-5FAA-4A40-A646-FB7DC6D299F3}.Release_trial|Any CPU.ActiveCfg = Release_trial|Any CPU
+		{525ACFD5-5FAA-4A40-A646-FB7DC6D299F3}.Release_trial|Any CPU.Build.0 = Release_trial|Any CPU
+		{525ACFD5-5FAA-4A40-A646-FB7DC6D299F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{525ACFD5-5FAA-4A40-A646-FB7DC6D299F3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
